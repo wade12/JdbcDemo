@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import com.osgo.model.Circle;
 
 // this class is responsible for talking to the database and getting the data
-public class jdbcDaoImpl
+public class JdbcDaoImpl
 {
 	public Circle getCircle(int circleId)
 	{
